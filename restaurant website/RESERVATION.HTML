@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <LINK rel="stylesheet " href="style.css">
+</head>
+<body>
+    <nav >
+        <H1> Restaurant</H1>
+        <ul>
+            <li><a  href="index.html"> HOME</a></li>
+            <li><a href="menu.html"> MENU</a></li>
+            <li><a href="RESERVATION.HTML">RESERVATION</a></li>
+            <li><a href="about.html">  ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT US </a></li>
+            <li><a href="profile.html">PROFILE </a></li>
+            <li><a href="SIGN UP.HTML"> SIGN UP</a></li>
+            <li><a href="login.html">LOG IN</a></li>
+            
+            
+            
+        </ul>
+    </nav>
+  
+   
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+              <label for="exampleFormControlInput1" class="form-label">Date</label>
+              <input type="date" class="form-control" required id="date" placeholder="name@example.com">
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+              <label for="exampleFormControlInput1" class="form-label">Time</label>
+              <input type="time" class="form-control" required id="time" placeholder="name@example.com">
+          </div>
+      </div>
+      <div class="row mt-3 justify-content-center">
+          <div class="col-md-3">
+              <button type="button"onclick="checkAvailability()" class="btn btn-primary">Check Availablity</button>
+          </div>
+          <div class="col-md-3">
+              <button type="button"onclick="confirmResevation()" class="btn btn-primary">Confirm Resevation</button>
+          </div>
+      </div>
+      
+         
+   </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
